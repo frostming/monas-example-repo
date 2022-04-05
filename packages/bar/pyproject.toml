@@ -1,0 +1,16 @@
+[project]
+name = "bar"
+version = "0.0.1"
+description = "Bar package"
+authors = [{name = "Frost Ming", email = "mianghong@gmail.com"}]
+requires-python = ">=3.7"
+readme = "README.md"
+dependencies = [
+    "click",
+    "foo",
+]
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
