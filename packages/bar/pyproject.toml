@@ -1,6 +1,6 @@
 [project]
 name = "bar"
-version = "0.0.1"
+version = "0.0.2"
 description = "Bar package"
 authors = [{name = "Frost Ming", email = "mianghong@gmail.com"}]
 requires-python = ">=3.7"
